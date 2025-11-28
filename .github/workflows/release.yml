@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0 # Important: Fetch full history for version calculation
 
       - name: Semantic Release
-        uses: your-username/release-flow@main # <--- Point to your repo here
+        uses: shujaakbar2020/release-flow@main # <--- Point to your repo here
         with:
           github-token: ${{ secrets.GH_TOKEN }}
           dry-run: false
